@@ -1,0 +1,33 @@
+// compter de 1 a 5 avec for 
+for (var i=1; i<=5;i++){
+    console.log(i);
+}
+console.log("counting completed");
+
+//Compte à rebours de 5 à 1 avec for
+for (var i=5; i>=1;i--){
+     console.log(i);
+}
+console.log("countdown completed");
+
+// Compter de 1 à 5 avec while
+var i = 1;
+while (i < 6) {
+  console.log(i);
+  i++;
+}
+console.log('Counting completed!');
+
+// Compte à rebours de 5 à 1 avec while
+var i = 5;
+while (i > 0) {
+  console.log(i);
+  i = i - 1;
+}
+console.log('Countdown finished!');
+// Afficher les années 2018 à 2022 avec while
+var year = 2018;
+while (year < 2023) {
+  console.log(year);
+  year++;
+}
